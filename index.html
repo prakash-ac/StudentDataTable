@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Enter Student Information</h3>
+    <form id="input">
+        <label for="sName">Student Name</label>
+        <input type="text" id="sName" name="sName"><br>
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age"><br>
+        <label for="phone">Phone No. </label>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address"><br>
+        <input type="button" id="addButton" value="Add to Table">
+    </form>
+ 
+    <div id="table">
+        <table id="studentData" style="width:75%">
+            <caption style="color: rgb(18, 93, 122); font-size: large;">Student Information</caption>
+            <tr id="heading">
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Phone No.</th>
+                <th>Address</th>
+                <th>Delete Row</th>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
